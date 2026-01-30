@@ -17,3 +17,11 @@ dependencies {
 tasks.test {
     useJUnitPlatform()
 }
+
+tasks.javadoc {
+    options.encoding = "UTF-8"
+    (options as StandardJavadocDocletOptions).apply {
+        charSet = "UTF-8"
+        docEncoding = "UTF-8"
+    }
+}

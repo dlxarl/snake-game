@@ -258,7 +258,7 @@ public class SnakeGame extends JPanel implements ActionListener {
      *
      * @param keyCode kod naciśniętego klawisza
      */
-    private void handleKeyPress(int keyCode) {
+    void handleKeyPress(int keyCode) {
         switch (keyCode) {
             case KeyEvent.VK_UP:
             case KeyEvent.VK_W:
